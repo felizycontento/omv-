@@ -1,0 +1,162 @@
+Get:2 http://deb.debian.org/debian buster-backports/main amd64 linux-compiler-gcc-8-x86 amd64 5.8.10-1~bpo10+1 [174 kB],
+Get:3 http://deb.debian.org/debian buster-backports/main amd64 linux-headers-5.4.0-0.bpo.3-common all 5.4.13-1~bpo10+1 [8,250 kB],
+Get:4 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libasan5 amd64 8.4.0-1ubuntu1~18.04 [366 kB],
+Get:5 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libubsan1 amd64 8.4.0-1ubuntu1~18.04 [122 kB],
+Get:6 http://archive.ubuntu.com/ubuntu bionic-updates/main amd64 libgcc-8-dev amd64 8.4.0-1ubuntu1~18.04 [2,305 kB],
+Get:7 http://archive.ubuntu.com/ubuntu bionic-updates/universe amd64 gcc-8 amd64 8.4.0-1ubuntu1~18.04 [8,044 kB],
+Get:8 http://deb.debian.org/debian buster-backports/main amd64 linux-kbuild-5.4 amd64 5.4.19-1~bpo10+1 [347 kB],
+Get:9 http://deb.debian.org/debian buster-backports/main amd64 linux-headers-5.4.0-0.bpo.3-amd64 amd64 5.4.13-1~bpo10+1 [595 kB],
+Fetched 27.4 MB in 1s (26.1 MB/s),
+Selecting previously unselected package cpp-8.
+,
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 14293 files and directories currently installed.)
+,
+Preparing to unpack .../0-cpp-8_8.4.0-1ubuntu1~18.04_amd64.deb ...
+,
+Unpacking cpp-8 (8.4.0-1ubuntu1~18.04) ...
+,
+Selecting previously unselected package libasan5:amd64.
+,
+Preparing to unpack .../1-libasan5_8.4.0-1ubuntu1~18.04_amd64.deb ...
+,
+Unpacking libasan5:amd64 (8.4.0-1ubuntu1~18.04) ...
+,
+Selecting previously unselected package libubsan1:amd64.
+,
+Preparing to unpack .../2-libubsan1_8.4.0-1ubuntu1~18.04_amd64.deb ...
+,
+Unpacking libubsan1:amd64 (8.4.0-1ubuntu1~18.04) ...
+,
+Selecting previously unselected package libgcc-8-dev:amd64.
+,
+Preparing to unpack .../3-libgcc-8-dev_8.4.0-1ubuntu1~18.04_amd64.deb ...
+,
+Unpacking libgcc-8-dev:amd64 (8.4.0-1ubuntu1~18.04) ...
+,
+Selecting previously unselected package gcc-8.
+,
+Preparing to unpack .../4-gcc-8_8.4.0-1ubuntu1~18.04_amd64.deb ...
+,
+Unpacking gcc-8 (8.4.0-1ubuntu1~18.04) ...
+,
+Selecting previously unselected package linux-compiler-gcc-8-x86.
+,
+Preparing to unpack .../5-linux-compiler-gcc-8-x86_5.8.10-1~bpo10+1_amd64.deb ...
+,
+Unpacking linux-compiler-gcc-8-x86 (5.8.10-1~bpo10+1) ...
+,
+Selecting previously unselected package linux-headers-5.4.0-0.bpo.3-common.
+,
+Preparing to unpack .../6-linux-headers-5.4.0-0.bpo.3-common_5.4.13-1~bpo10+1_all.deb ...
+,
+Unpacking linux-headers-5.4.0-0.bpo.3-common (5.4.13-1~bpo10+1) ...
+,
+Selecting previously unselected package linux-kbuild-5.4.
+,
+Preparing to unpack .../7-linux-kbuild-5.4_5.4.19-1~bpo10+1_amd64.deb ...
+,
+Unpacking linux-kbuild-5.4 (5.4.19-1~bpo10+1) ...
+,
+Selecting previously unselected package linux-headers-5.4.0-0.bpo.3-amd64.
+,
+Preparing to unpack .../8-linux-headers-5.4.0-0.bpo.3-amd64_5.4.13-1~bpo10+1_amd64.deb ...
+,
+Unpacking linux-headers-5.4.0-0.bpo.3-amd64 (5.4.13-1~bpo10+1) ...
+,
+Setting up cpp-8 (8.4.0-1ubuntu1~18.04) ...
+,
+Setting up linux-headers-5.4.0-0.bpo.3-common (5.4.13-1~bpo10+1) ...
+,
+Setting up linux-kbuild-5.4 (5.4.19-1~bpo10+1) ...
+,
+Setting up libasan5:amd64 (8.4.0-1ubuntu1~18.04) ...
+,
+Setting up libubsan1:amd64 (8.4.0-1ubuntu1~18.04) ...
+,
+Setting up libgcc-8-dev:amd64 (8.4.0-1ubuntu1~18.04) ...
+,
+Setting up gcc-8 (8.4.0-1ubuntu1~18.04) ...
+,
+Setting up linux-compiler-gcc-8-x86 (5.8.10-1~bpo10+1) ...
+,
+Setting up linux-headers-5.4.0-0.bpo.3-amd64 (5.4.13-1~bpo10+1) ...
+,
+/etc/kernel/header_postinst.d/dkms:
+,
+ * dkms: running auto installation service for kernel 5.4.0-0.bpo.3-amd64
+,
+   ...done.
+,
+Processing triggers for libc-bin (2.27-3ubuntu1.2) ...
+,
+**** Kernel headers seem to be present, attempting to build the wireguard module. . . ****,
+**** Generating signing key ****,
+Generating a RSA private key,
+.................................................++++,
+...............++++,
+writing new private key to 'signing_key.pem',
+-----,
+**** Building the module ****,
+make: Entering directory '/app/wireguard-linux-compat/src',
+  CC [M]  /app/wireguard-linux-compat/src/main.o,
+  CC [M]  /app/wireguard-linux-compat/src/noise.o,
+  CC [M]  /app/wireguard-linux-compat/src/device.o,
+  CC [M]  /app/wireguard-linux-compat/src/peer.o,
+  CC [M]  /app/wireguard-linux-compat/src/timers.o,
+  CC [M]  /app/wireguard-linux-compat/src/queueing.o,
+  CC [M]  /app/wireguard-linux-compat/src/send.o,
+  CC [M]  /app/wireguard-linux-compat/src/receive.o,
+  CC [M]  /app/wireguard-linux-compat/src/socket.o,
+  CC [M]  /app/wireguard-linux-compat/src/peerlookup.o,
+  CC [M]  /app/wireguard-linux-compat/src/allowedips.o,
+  CC [M]  /app/wireguard-linux-compat/src/ratelimiter.o,
+  CC [M]  /app/wireguard-linux-compat/src/cookie.o,
+  CC [M]  /app/wireguard-linux-compat/src/netlink.o,
+  CC [M]  /app/wireguard-linux-compat/src/crypto/zinc/chacha20/chacha20.o,
+  PERLASM /app/wireguard-linux-compat/src/crypto/zinc/chacha20/chacha20-x86_64.S,
+  CC [M]  /app/wireguard-linux-compat/src/crypto/zinc/poly1305/poly1305.o,
+  PERLASM /app/wireguard-linux-compat/src/crypto/zinc/poly1305/poly1305-x86_64.S,
+  CC [M]  /app/wireguard-linux-compat/src/crypto/zinc/chacha20poly1305.o,
+  CC [M]  /app/wireguard-linux-compat/src/crypto/zinc/blake2s/blake2s.o,
+  AS [M]  /app/wireguard-linux-compat/src/crypto/zinc/blake2s/blake2s-x86_64.o,
+  CC [M]  /app/wireguard-linux-compat/src/crypto/zinc/curve25519/curve25519.o,
+  AS [M]  /app/wireguard-linux-compat/src/crypto/zinc/chacha20/chacha20-x86_64.o,
+  AS [M]  /app/wireguard-linux-compat/src/crypto/zinc/poly1305/poly1305-x86_64.o,
+  LD [M]  /app/wireguard-linux-compat/src/wireguard.o,
+  Building modules, stage 2.,
+  MODPOST 1 modules,
+  CC [M]  /app/wireguard-linux-compat/src/wireguard.mod.o,
+  LD [M]  /app/wireguard-linux-compat/src/wireguard.ko,
+make: Leaving directory '/app/wireguard-linux-compat/src',
+make: Entering directory '/app/wireguard-linux-compat/src',
+  INSTALL /app/wireguard-linux-compat/src/wireguard.ko,
+  DEPMOD  5.4.0-0.bpo.3-amd64,
+Warning: modules_install: missing 'System.map' file. Skipping depmod.,
+depmod -b "/" -a 5.4.0-0.bpo.3-amd64,
+depmod: WARNING: could not open //lib/modules/5.4.0-0.bpo.3-amd64/modules.order: No such file or directory,
+depmod: WARNING: could not open //lib/modules/5.4.0-0.bpo.3-amd64/modules.builtin: No such file or directory,
+make: Leaving directory '/app/wireguard-linux-compat/src',
+**** Let's test our new module. ****,
+Error: Unknown device type.,
+**** The module is not active, review the logs. Sleeping now. . . ****,
